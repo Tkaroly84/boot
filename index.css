@@ -1,0 +1,93 @@
+@charset "UTF-8";
+.jumbotron {
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  background-color: white !important;
+  padding: 0% !important;
+  margin: 0% !important;
+}
+
+#logo {
+  width: 300px;
+  height: 250px;
+}
+
+#header_mobile {
+  display: none;
+}
+
+#nav_mobile {
+  display: none;
+}
+
+.kártyák {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 2rem;
+}
+
+.footer {
+  display: flex;
+  margin-top: 2rem;
+}
+.footer .form {
+  width: 50%;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.footer .form-inline {
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.footer .form_melletti {
+  width: 50%;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+@media only screen and (max-width: 768px) {
+  #header_asztali {
+    display: none;
+  }
+  #header_mobile {
+    display: block;
+  }
+  #nav_asztali {
+    display: none;
+  }
+  #nav_mobile {
+    display: flex;
+    position: sticky;
+  }
+  #nav_mobile #nav_button {
+    margin: auto;
+  }
+  #navbar_toggle {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .footer {
+    display: block;
+  }
+  .form {
+    font-size: 1rem !important;
+    width: 100% !important;
+    justify-content: center !important;
+    text-align: center !important;
+    align-items: center !important;
+  }
+  .form h3 {
+    font-size: 1rem !important;
+  }
+  .form_melletti {
+    width: 100% !important;
+    justify-content: center !important;
+    text-align: center !important;
+    align-items: center !important;
+  }
+}/*# sourceMappingURL=index.css.map */
